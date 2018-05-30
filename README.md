@@ -9,8 +9,12 @@ git clone https://github.com/prateekcelly/Node-WeatherApp.git
 ```
 ### Install the dependencies
 ```
-cd node-WeatherApp
+cd Node-WeatherApp
 npm install 
 npm install --save ejs
+```
+### Run the app
+```
+npm start
 ```
 Now simply open a browser and type [localhost:3000](http://localhost:3000) 
