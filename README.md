@@ -10,6 +10,7 @@ git clone https://github.com/prateekcelly/Node-WeatherApp.git
 ### Install the dependencies
 ```
 cd node-WeatherApp
-npm install
+npm install 
+npm install --save ejs // To install EJS template engine
 ```
 Now simply open a browser and type [localhost:3000](http://localhost:3000) 
