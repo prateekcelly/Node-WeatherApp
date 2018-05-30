@@ -1,7 +1,7 @@
 const express = require('express')
 const request = require('request')
 const path = require('path')
-const apiKey = 'be88d946b8c48b6eeb5b29fbda6d6cc4'
+const apiKey = require('./config.js')
 const bodyParser = require('body-parser')
 const app = express()
 
