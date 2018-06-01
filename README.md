@@ -14,7 +14,7 @@ npm install
 npm install --save ejs
 ```
 ### Create config file
-In the Project directory create a new file named config.js which contains the your own API key.
+In the Project directory create a new file named config.js which contains your own API key.
 ( To get your own API key click [here](https://openweathermap.org/api)).
 Your config file should look like this:
 ```javascript
