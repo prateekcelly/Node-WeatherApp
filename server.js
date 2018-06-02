@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static('public'))
 
 app.post('/',function(req,res){
-  console.log(config.apiKey);
   let city = req.body.city;
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${config.apiKey}`
     request(url, function (err, response, body) {
